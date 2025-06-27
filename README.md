@@ -25,7 +25,28 @@ A full-featured **Realtime Chat Application** built with the **MERN** stack and 
 
 ---
 
-## 📦 Installation & Setup
+### Setup .env file
+```js
+MONGODB_URI=...
+PORT=5001
+JWT_SECRET=...
+
+CLOUDINARY_CLOUD_NAME=...
+CLOUDINARY_API_KEY=...
+CLOUDINARY_API_SECRET=...
+
+NODE_ENV=development
+```
+
+### Build the app
+```shell
+npm install
+```
+### Start the app
+
+```shell
+npm run dev
+```
 
 ### 1️⃣ Clone the Repository
 
